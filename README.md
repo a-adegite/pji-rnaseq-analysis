@@ -1,6 +1,10 @@
 # RNA-seq Analysis of Acute and Chronic Periprosthetic Joint Infection (PJI) Isolates
 This project investigates the transcriptional differences between acute and chronic Periprosthetic Joint Infection (PJI) isolates using RNA-seq data. The goal is to identify differentially expressed genes (DEGs) and long non-coding RNAs (lncRNAs) that may contribute to infection persistence, biofilm formation, and host–pathogen interactions.
 
+## 🗂️ Project Structure
+```
+
+```
 ## 🔧 Pipeline Overview
 This pipeline processes paired-end RNA-seq FASTQ files from Staphylococcus aureus isolates to identify transcriptional differences between acute and chronic phases of periprosthetic joint infection (PJI).
 
@@ -33,6 +37,12 @@ This pipeline processes paired-end RNA-seq FASTQ files from Staphylococcus aureu
 - [clusterProfiler](https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html)
 
 ---
+
+## 🚀 How to Run
+```
+```
+
+> ⚠️ Ensure that all required tools are installed and accessible in your system's `$PATH`.
 
 ## 📦 Data Access
 
