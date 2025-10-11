@@ -2,8 +2,7 @@
 This project investigates the transcriptional differences between acute and chronic Periprosthetic Joint Infection (PJI) isolates using RNA-seq data. The goal is to identify differentially expressed genes (DEGs) and long non-coding RNAs (lncRNAs) that may contribute to infection persistence, biofilm formation, and host–pathogen interactions.
 
 ## 🔧 Pipeline Overview
-
-The pipeline processes paired-end RNA-seq reads to identify differentially expressed lncRNAs and mRNAs between ECFCs from SCD patients with and without ischemic stroke.  
+This pipeline processes paired-end RNA-seq FASTQ files from Staphylococcus aureus isolates to identify transcriptional differences between acute and chronic phases of periprosthetic joint infection (PJI).
 
 1. **Data Acquisition** 
 2. **Quality Control** 
@@ -12,8 +11,8 @@ The pipeline processes paired-end RNA-seq reads to identify differentially expre
 5. **Quantification** 
 6. **Differential Expression Analysis** 
 7. **Annotation** 
-8. **Functional Enrichment** — Use clusterProfiler to perform GO and KEGG pathway enrichment for correlated coding genes.  
-9. **Visualization**
+8. **Functional Enrichment**
+9. **Visualization $ Interpretation**
 
 ## 🛠️ Tools & Dependencies
 
