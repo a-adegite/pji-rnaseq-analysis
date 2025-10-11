@@ -3,6 +3,24 @@ This project investigates the transcriptional differences between acute and chro
 
 ## 🗂️ Project Structure
 ```
+pji_analysis/
+├── data/
+│   ├── raw_reads/                # Raw sequencing reads (FASTQ files)
+│   ├── trimmed_reads/            # Reads after quality trimming
+│   └── mapping/                  # Alignment (mapping) outputs
+│
+├── scripts/                      # All analysis scripts
+│
+├── result/
+│   ├── gene_counts/              # Gene count files from featureCounts/HTSeq
+│   ├── star_logs/                # STAR alignment log files
+│   └── QC_report/                # Quality control reports (FastQC, MultiQC, etc.)
+│
+└── README.md                     # Project summary and analysis notes
+
+refdata/
+├── reference_genome.fa           # Reference genome (FASTA)
+└── annotation.gtf                # Corresponding gene annotation file (GTF)
 
 ```
 ## 🔧 Pipeline Overview
