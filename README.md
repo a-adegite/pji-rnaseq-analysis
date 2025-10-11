@@ -1,7 +1,19 @@
 # RNA-seq Analysis of Acute and Chronic Periprosthetic Joint Infection (PJI) Isolates
-description goes here
+This project investigates the transcriptional differences between acute and chronic Periprosthetic Joint Infection (PJI) isolates using RNA-seq data. The goal is to identify differentially expressed genes (DEGs) and long non-coding RNAs (lncRNAs) that may contribute to infection persistence, biofilm formation, and host–pathogen interactions.
 
 ## 🔧 Pipeline Overview
+
+The pipeline processes paired-end RNA-seq reads to identify differentially expressed lncRNAs and mRNAs between ECFCs from SCD patients with and without ischemic stroke.  
+
+1. **Data Acquisition** 
+2. **Quality Control** 
+3. **Read Trimming** 
+4. **Read Alignment** 
+5. **Quantification** 
+6. **Differential Expression Analysis** 
+7. **Annotation** 
+8. **Functional Enrichment** — Use clusterProfiler to perform GO and KEGG pathway enrichment for correlated coding genes.  
+9. **Visualization**
 
 ## 🛠️ Tools & Dependencies
 
@@ -19,6 +31,7 @@ description goes here
 - [pheatmap](https://cran.r-project.org/web/packages/pheatmap/)
 - [ComplexHeatmap](https://bioconductor.org/packages/release/bioc/html/ComplexHeatmap.html)
 - [biomaRt](https://bioconductor.org/packages/release/bioc/html/biomaRt.html)
+- [clusterProfiler](https://bioconductor.org/packages/release/bioc/html/clusterProfiler.html)
 
 ---
 
