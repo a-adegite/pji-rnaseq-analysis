@@ -12,15 +12,15 @@ pji_analysis/
 ├── scripts/                      # All analysis scripts
 │
 ├── result/
-│   ├── gene_counts/              # Gene count files from featureCounts/HTSeq
+│   ├── gene_counts/              # Gene count files from featureCounts
 │   ├── star_logs/                # STAR alignment log files
 │   └── QC_report/                # Quality control reports (FastQC, MultiQC, etc.)
 │
 └── README.md                     # Project summary and analysis notes
 
 refdata/
-├── reference_genome.fa           # Reference genome (FASTA)
-└── annotation.gtf                # Corresponding gene annotation file (GTF)
+├── reference_genome.fa           # Reference genome
+└── annotation.gtf                # Corresponding gene annotation file 
 
 ```
 ## 🔧 Pipeline Overview
