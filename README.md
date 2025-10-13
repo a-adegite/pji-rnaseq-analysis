@@ -19,8 +19,10 @@ pji_analysis/
 └── README.md                     # Project summary and analysis notes
 
 refdata/
-├── reference_genome.fa           # Reference genome
-└── annotation.gtf                # Corresponding gene annotation file
+└── s_aureus_ASM1342v1/
+    ├── s_aureus.fna             # Reference genome FASTA file
+    ├── s_aureus.gtf             # Gene annotation file
+    └── star_index/              # STAR genome index directory
 
 ```
 ## 🔧 Pipeline Overview
