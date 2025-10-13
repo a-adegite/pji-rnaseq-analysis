@@ -34,7 +34,7 @@ This pipeline processes paired-end RNA-seq FASTQ files from Staphylococcus aureu
 6. **Differential Expression Analysis** 
 7. **Annotation** 
 8. **Functional Enrichment**
-9. **Visualization $ Interpretation**
+9. **Visualization and Interpretation**
 
 ## 🛠️ Tools & Dependencies
 
