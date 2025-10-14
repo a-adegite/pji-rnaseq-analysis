@@ -50,4 +50,4 @@ do
 
 done
 
-echo "All samples mapped. BAM files: ${bam_path}, gene counts: ${counts_path}"
+echo "All samples mapped. BAM files: ${bam_path}"
