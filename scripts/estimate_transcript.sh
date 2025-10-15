@@ -17,5 +17,5 @@ featureCounts \
     -p \
     -g gene_id \
     -t exon \
-    -o "${output_path}" \
+    -o "${output_path}"counts.tsv \
     "${input_path}"*.bam
